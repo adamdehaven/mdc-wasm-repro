@@ -14,5 +14,8 @@ export default defineNuxtConfig({
     prerender: {
       autoSubfolderIndex: false // Set to false to match Cloudflare route matching rules: https://nuxt.com/deploy/cloudflare
     },
+    experimental: {
+      wasm: true,
+    },
   },
 })
